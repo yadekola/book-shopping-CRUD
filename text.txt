@@ -1,0 +1,31 @@
+CREATE TABLE `test`.`books` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(45) NOT NULL,
+  `desc` VARCHAR(255) NOT NULL,
+  `cover` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `test`.`books` (`id`, `title`, `desc`, `cover`) VALUES ('1', 'title', 'desc', 'cover');
+
+ALTER TABLE books
+ADD price INT NOT NULL;
+
+ALTER TABLE books DROP COLUMN prics;
+
+instell packages
+
+npm i dotenv
+
+npm i express mysql nodemon
+
+npm i cors
+
+
+
+client side
+
+npx create-react-app client
+
+npm i react-router-dom
+
+npm i axios
